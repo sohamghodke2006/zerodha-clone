@@ -2,7 +2,13 @@ import React from 'react';
 
 function Hero() {
     return ( 
-        <h1>Hero</h1>
+        <div className='container border-bottom mb-5'>
+            <div className='text-center mt-5 p-5'>
+                <h1 className='text-muted'>Zerodha Products</h1>
+                <h3 className='text-muted mb-3 fs-4'>Sleek, modern and intuitive trading platforms</h3>
+                <p className=' text-muted mb-5 mt-3'>Check out our <a href='' style={{textDecoration: "none"}}>investment offerings <i className="fa fa-long-arrow-right" aria-hidden="true"></i></a></p>
+            </div>
+        </div>
      );
 }
 
